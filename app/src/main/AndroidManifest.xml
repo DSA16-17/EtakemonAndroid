@@ -30,6 +30,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Etakedex"></activity>
+        <activity android:name=".Menu">
+        </activity>
+        <activity android:name=".Capturar"></activity>
         <activity android:name=".Caza"></activity>
         <activity android:name=".Detalle"></activity>
         <meta-data

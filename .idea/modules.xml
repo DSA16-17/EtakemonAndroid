@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Etakemon.iml" filepath="$PROJECT_DIR$/Etakemon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EtakemonAndroid.iml" filepath="$PROJECT_DIR$/EtakemonAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

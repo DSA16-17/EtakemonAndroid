@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <pl.droidsonroids.gif.GifTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ash"
+        />
+    <TextView
+        android:text="Escoge una acción:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+        android:fontFamily="casual" />
+
+    <Button
+        android:text="Etakedex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:fontFamily="casual"
+        android:layout_marginTop="35dp"
+        android:onClick="etakedex"
+        android:layout_below="@+id/textView"
+        android:layout_alignEnd="@+id/button3" />
+
+    <Button
+        android:text="Capturar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:elevation="0dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="91dp"
+        android:onClick="capturar"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true" />
+
+
+
+</RelativeLayout>
